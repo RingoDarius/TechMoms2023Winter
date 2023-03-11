@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 1rem;
+}
+
+.light_pink {
+    background-color: #F5C6D6;
+    padding: 1rem;
+    margin: auto;
+    width: 64rem;
+}
+
+.dark_pink {
+    margin: 1rem auto;
+    width: 64rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dark_pink div {
+    padding: 2rem;
+    background-color: #ee2e84;
+    width: 15rem;
+}
+
+.light_blue {
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-between;
+    width: 64rem;
+}
+
+.light_blue div {
+    background-color: #85CFD8;
+    width: 31.3rem;
+    height: 6rem;
+
+}
+
+.rainbow{
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-between;
+    width: 64rem;  
+}
+
+.rainbow:first-child{
+    background-color: orange;
+}
+.rainbow div{
+    background-color: red;
+}
